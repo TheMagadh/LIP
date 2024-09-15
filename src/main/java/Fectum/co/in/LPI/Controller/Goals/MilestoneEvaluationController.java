@@ -17,6 +17,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/milestone-evaluations")
+@CrossOrigin(origins = "*")
 @Tag(name = "Milestone Evaluations", description = "API for managing milestone evaluations")
 public class MilestoneEvaluationController {
 

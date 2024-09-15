@@ -22,6 +22,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/goals")
+@CrossOrigin(origins = "*")
 @Tag(name = "Goals", description = "API for managing goals")
 public class GoalController {
 
